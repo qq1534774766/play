@@ -7,7 +7,8 @@ package com.aguo;
  */
 public class Test {
     public static void main(String[] args) {
-
+        System.out.println("edit by hot-fix");
+        System.out.println("edit by hot-fix");
     }
 
 }
