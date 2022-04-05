@@ -6,5 +6,8 @@ package com.aguo;
  * @Description: TODO
  */
 public class Test {
+    public static void main(String[] args) {
+
+    }
 
 }
