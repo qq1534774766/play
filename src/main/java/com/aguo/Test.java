@@ -11,6 +11,7 @@ public class Test {
         System.out.println("edit by hot-fix");
         System.out.println("edit by master");
         System.out.println("edit by hot-fix");
+        System.out.println("edit by github");
     }
 
 }
