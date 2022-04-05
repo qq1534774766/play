@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    background-color: #f3f5f7;
+    /*height: 2000px;*/
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    #zoom:1;
+}
+.header {
+    height: 42px;
+    margin: 30px auto;
+    /*background-color: pink;*/
+}
+.logo {
+    float: left;
+    width: 200px;
+    height: 42px;
+}
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+.nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.nav ul li a {
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    color: black;
+}
+.nav ul li a:hover {
+    border-bottom: 3px solid #00a4ff;
+    color: #00a4ff;
+}
+.search {
+    float: left;
+    /*width: 419px;*/
+    height: 42px;
+    margin-left: 70px;
+    /*background-color: #00a4ff;*/
+}
+.search input {
+    float: left;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    color: #cececf;
+    text-indent: 2em;
+}
+.search button {
+    float: left;
+    height: 42px;
+    width: 50px;
+    background: #00a4ff url("../img/fa-search.png") no-repeat;
+    border: 0;
+}
+.user {
+    float: right;
+    color: #666666;
+    margin-right: 50px;
+    font-size: 14px;
+    height: 42px;
+    line-height: 42px;
+}
+.user img {
+    border-radius: 50%;
+}
+.banner {
+    height: 421px;
+    background-color: #1c0b70;
+}
+.banner .banner-mid {
+    height: 421px;
+    background: url("../img/banner2.png") no-repeat top;
+}
+.banner-mid .subnav {
+    float: left;
+    height: 421px;
+    width: 190px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.subnav ul {
+    padding: 13px 0;
+}
+.subnav ul li {
+    height: 44px;
+    width: 151px;
+    margin: 0 auto;
+    line-height: 44px;
+    /*padding-left: 22px;*/
+}
+
+.subnav ul li a {
+    color: white;
+    font-size: 14px;
+}
+.subnav ul li a span {
+    float: right;
+}
+.subnav ul li a:hover {
+    color: #00a4ff;
+    background-color: black;
+}
+.course{
+    float: right;
+    width: 230px;
+    height: 300px;
+    background: #ffffff;
+    margin-top: 50px;
+}
+.course h2 {
+    height: 48px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    background-color: #9bceea;
+}
+.bd {
+    padding: 0 14px;
+}
+.bd ul li{
+    padding: 14px 0;
+    border-bottom: 1px solid #efefef;
+}
+.bd ul li a:hover h4,
+.bd ul li a:hover p {
+    color: #00a4ff;
+}
+.bd ul li a h4 {
+    color: #4e4e4e;
+    font-size: 14px;
+}
+.bd ul li a p {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.bd>a {
+    display: inline-block;
+    height: 38px;
+    width: 198px;
+    margin: 5px auto;
+    color: #00a4ff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 38px;
+    border: 2px solid #00a4ff;
+
+}
+.bd>a:hover{
+    background-color: #00a4ff;
+    color: white;
+}
+.goods {
+    height: 60px;
+    margin: 8px auto;
+    background-color: white;
+    box-shadow: 0 2px 3px 3px rgba(0,0,0,0.1);
+    line-height: 60px;
+}
+.goods h3 {
+    float: left;
+    width: 101px;
+    color: #00a4ff;
+    font-size: 16px;
+    padding-left: 35px;
+}
+.goods ul li {
+    float: left;
+}
+.goods ul li a {
+    color: #050505;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 30px;
+    border-left: 1px solid #bfbfbf;
+}
+.goods ul li a:hover {
+    color: #00a4ff;
+}
+.goods>a {
+    float: right;
+    color: #00a4ff;
+    font-size: 14px;
+    padding-right: 26px;
+}
+/*核心模块*/
+.box {
+    margin-top: 30px;
+}
+.box-hd {
+    height: 42px;
+}
+.box-hd h4 {
+    float: left;
+    color: #494949;
+    font-size: 20px;
+}
+.box-hd p {
+    float: right;
+    margin-top: 10px;
+    margin-right: 33px;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.box-bd ul li{
+    float: left;
+}
+.box-bd ul li a {
+    display: block;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.15)
+}
+.box-bd ul li a:hover {
+    box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.3)
+}
+.box-bd .last {
+    margin-right: 0;
+}
+.box-bd ul li a {
+    position: relative;
+    margin-bottom: 14px;
+}
+.box-bd ul li a>img {
+    width: 100% ;
+}
+.box-bd ul li i {
+    position: absolute;
+    top: 5px;
+    right: -4px;
+}
+.box-bd ul li a h4 {
+    margin: 20px 20px 20px 25px;
+    color: #050505;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box-bd .info {
+    padding-left: 25px;
+}
+.box-bd .info p{
+    display: inline-block;
+    color: #ff7c2d;
+    font-size: 14px;
+}.box-bd .info span {
+    color: #999999;
+    font-size: 12px;
+}
+.footer {
+    height: 420px;
+    background-color: white;
+    /*overflow: hidden;*/
+    padding-top: 35px;
+}
+.footer .w {
+    /*height: 100px;*/
+    /*padding-top: 35px;*/
+    /*background-color: white;*/
+}
+.footer .left {
+    float: left;
+    padding-left: 20px;
+    width: 435px;
+    color: #666666;
+    font-size: 12px;
+}
+.footer .left>div {
+    margin: 26px 0 15px 0;
+}
+.footer .left a {
+    display: inline-block;
+    color: #00a4ff;
+    font-size: 16px;
+    padding: 11px 26px;
+    border: 2px solid #00a4ff;
+}
+.footer .left p {
+    padding-top: 5px;
+}
+.footer .left a:hover {
+    background-color: #00a4ff;
+    color: white;
+}
+.footer .right {
+    float: right;
+}
+.right h4 {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+.right ul {
+    margin-top: 16px;
+}
+.right ul li a {
+    color: #333333;
+    font-size: 12px;
+}
+.right ul li a:hover {
+    color: #00a4ff;
+}
+.right>div {
+    float: left;
+    padding-left: 145px;
+}
+.red-bag {
+    position: fixed;
+    top: 35%;
+    right: 15px;
+    width: 150px;
+}
+.red-bag>img {
+    width: 100%;
+}
+.red-bag i {
+    position: absolute;
+    top:-145px;
+    right: 30px;
+}
+.red-bag i span {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    font-style: normal;
+    font-size: 14px;
+    color: #88652e;
+}
